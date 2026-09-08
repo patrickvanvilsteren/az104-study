@@ -1,0 +1,20 @@
+{
+    "Name": "Scoped Contributor",
+    "IsCustom": true,
+    "Description": "Grants contributor access to resources within a specific scope.",
+    "Actions": [
+        "*"
+    ],
+    "NotActions": [],
+    "DataActions": [],
+    "NotDataActions": [
+        "Microsoft.Authorization/*/Delete",
+        "Microsoft.Authorization/*/Write",
+        "Microsoft.Authorization/elevateAccess/Action",
+        "Microsoft.Authorization/roleAssignments/write",
+        "Microsoft.Authorization/roleAssignments/delete"
+    ],
+    "AssignableScopes": [
+        "/subscriptions/28168719-f2d0-41ab-ad0a-9d4429415753/resourceGroups/rg-az104-rbac"
+    ]
+}
