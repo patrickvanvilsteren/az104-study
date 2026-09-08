@@ -1,0 +1,19 @@
+{
+    "Name": "Storage Reader Plus",
+    "IsCustom": true,
+    "Description": "Grants read access to storage resources with additional permissions.",
+    "Actions": [
+        "Microsoft.Storage/storageAccounts/read"
+    ],
+    "DataActions": [
+        "Microsoft.Storage/storageAccounts/blobServices/containers/blobs/read"
+    ],
+    "NotActions": [],
+    "NotDataActions": [
+        "Microsoft.Storage/storageAccounts/blobServices/containers/blobs/write",
+        "Microsoft.Storage/storageAccounts/blobServices/containers/blobs/delete"
+    ],
+    "AssignableScopes": [
+        "/subscriptions/28168719-f2d0-41ab-ad0a-9d4429415753/resourceGroups/rg-az104-rbac"
+    ]
+}
