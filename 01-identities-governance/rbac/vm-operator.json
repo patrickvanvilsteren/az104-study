@@ -13,6 +13,7 @@
     "DataActions": [],
     "NotDataActions": [],
     "AssignableScopes": [
-        "/subscriptions/28168719-f2d0-41ab-ad0a-9d4429415753/resourceGroups/rg-az104-rbac"
+        "/subscriptions/28168719-f2d0-41ab-ad0a-9d4429415753/resourceGroups/rg-az104-rbac",
+        "/subscriptions/28168719-f2d0-41ab-ad0a-9d4429415753/"
     ]
 }
