@@ -19,10 +19,6 @@ param location string = resourceGroup().location
 @description('Admin username for the VM')
 param adminUsername string = 'azureuser'
 
-@description('SSH public key for the admin user (paste your own — do not hardcode a private key here)')
-@secure()
-param sshPublicKey string
-
 @description('VM size')
 param vmSize string = 'Standard_D2s_v3'
 
@@ -102,16 +98,9 @@ resource vm 'Microsoft.Compute/virtualMachines@2023-09-01' = {
     osProfile: {
       computerName: vmName
       adminUsername: adminUsername
+      adminPassword: 'W3lc0me01'
       linuxConfiguration: {
-        disablePasswordAuthentication: true
-        ssh: {
-          publicKeys: [
-            {
-              path: '/home/${adminUsername}/.ssh/authorized_keys'
-              keyData: sshPublicKey
-            }
-          ]
-        }
+        disablePasswordAuthentication: false
       }
     }
     networkProfile: {
