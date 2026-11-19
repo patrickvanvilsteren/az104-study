@@ -33,7 +33,9 @@ az104-study/
 
 ## Companion tools
 
-- These same study guides also live in your **"Learning Azure AZ-104" Claude Project** (kept in sync as the source of truth) — useful if you want to search/reference them from a Claude chat.
+- This repo is the source of truth for the study guides, gaps lists and Bicep files. The **AZ-104 Claude Project** holds the instructions, skills list and study plan; Claude reads and commits to this repo.
+- **`PROMPTS.md`** — how to start, steer and wrap up a study session with Claude.
+- The **`az104-lab-builder`** skill builds hands-on labs (goal + hints, check command, cleanup) for any topic.
 - Five **AZ-104 study-companion skills** (`az104-identity-governance`, `az104-storage`, `az104-compute`, `az104-networking`, `az104-monitor-backup`) are available in Claude — invoke one any time you want to be quizzed or drilled on a domain instead of reading.
 
 ## Exam reference
