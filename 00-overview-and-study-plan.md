@@ -1,6 +1,6 @@
 # AZ-104 Study Plan — Overview
 
-**Exam:** AZ-104 Microsoft Azure Administrator | Passing score: 700 | Skills outline effective April 17, 2026
+**Exam:** AZ-104 Microsoft Azure Administrator | Passing score: 700 | Skills measured as of October 26, 2023 (official study guide, checked 19 Nov 2026)
 **Your pace:** ~12 hrs/week | **Approach:** every topic built three ways — Portal (GUI), PowerShell + Azure CLI, and Bicep — because that progression (click it, script it, codify it) is exactly how real Cloud/Platform Engineering roles work, and it's the fastest path from "certified" to "hireable."
 
 ## Why this structure

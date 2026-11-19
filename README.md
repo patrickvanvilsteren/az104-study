@@ -38,4 +38,4 @@ az104-study/
 
 ## Exam reference
 
-Skills outline effective April 17, 2026, passing score 700. Source: [Microsoft Learn AZ-104 study guide](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-104).
+Skills measured as of October 26, 2023 (checked 19 Nov 2026), passing score 700. Source: [Microsoft Learn AZ-104 study guide](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-104).
